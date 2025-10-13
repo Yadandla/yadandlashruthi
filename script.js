@@ -16,6 +16,7 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 
+
     function isMobile() {
         return window.innerWidth <= 640;
     }
@@ -24,6 +25,11 @@ $(document).ready(function () {
         if (isMobile()) {
             $('.nav-links').hide();
         };
+    });
+
+    $('.meet-btn a').click(function () {
+        $('.nav-links .about-active').addClass('active');
+        $('.nav-links .home-active').removeClass('active');
     });
 
 });
