@@ -121,7 +121,7 @@
     .home-cont {
         flex-direction: column;
         padding: 0;
-        gap: 4rem;
+        gap: 0rem;
         padding: 4.5rem 0 0 0;
     }
 
